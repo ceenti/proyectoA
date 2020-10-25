@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    margin-bottom:46px ;
 }
 .top_menu{
     display: flex;
@@ -33,29 +34,106 @@ body{
 .top_menu .menu a{
     font-size: 9px;
     color: #acaeaa;
-    margin-right: 8px;
+    margin-right: 7px;
 }
 .top_menu .menu .button_class{
     background-color: #410ff8;
     padding: 5px 15px;
+    margin-left: 15px;
     border-radius: 3px;
     color: #ffffff;
 }
-
 .top .center_text{
-    width: 33%;
+    width: 30%;
     align-self: center;
-    font-size: 9px;
+    font-size: 10px;
     margin:20px 0px 50px 0;
-    text-align: center;
 }
 .center_text a{
     color: #52C5B0;
     font-weight: bold;
 }
 .title{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 36px;    
     margin: 15px 0;
     text-align: left;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.plan_section{
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    width: 18%;
+    margin-right: 5%;
+    padding: 20px 20px 35px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 46px;
+
+    /*flex-wrap: wrap;*/
+}
+.plan_section button{
+    width: 100%;
+    text-align: center ;
+    align-self: center;
+}
+.bottom .plan_section.last {
+    margin-right: 0px;
+}
+.title2{
+    margin-top: 0px;
+    font-size: 9px;
+    font-weight: bold;
+}
+.montly{
+    font-size: 24px;
+    margin: 2px 0px;
+}
+.annually{
+    font-size: 8px;
+    color: #acaeaa;
+    margin: 6px 0px;
+}
+.indexing{
+    color: #ffffff;
+    background-color: #410ff8;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 10px; 
+}
+.description{
+    padding: 0px;
+}
+.description li{
+    list-style: none;
+    font-size: 9px;
+    line-height: 22px;  
+}
+.description li>img{
+    background-color: #c2b2fd;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-right: 9px;
+}
+.selected{
+    background-color: #410ff8;
+    color: #ffffff;
+}
+.selected button{
+    background-color: #ffffff;
+    color: #410ff8;
+    font-weight: bold;
+}
+.selected li>img{
+    background-color: #ffffff;
 }
