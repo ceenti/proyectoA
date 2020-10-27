@@ -4,13 +4,14 @@
 
 }
 body{
-    background-color: #000000;
     margin: 0;
 }
 .main_container{
     background-color: #ffffff;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    /*margin: 20px auto;*/
+    display: flex;
+    flex-direction: column;
 }
 .top{
     background-image: url("/images/MaskGroup.png");
@@ -26,11 +27,12 @@ body{
 .top_menu{
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 20px;
     flex-wrap: wrap;
 }
 .top_menu .icon{
     width: 100px;
+    margin-left: 8px;
 }
 .top_menu>nav.menu{
     flex-wrap: nowrap;
@@ -70,9 +72,9 @@ body{
 .plan_section{
     border: 1px solid #cecece;
     border-radius: 4px;
-    width: 18%;
+    width: 17%;
     margin-right: 5%;
-    padding: 20px 20px 35px 20px;
+    padding: 15px 15px 25px 15px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -166,7 +168,7 @@ body{
 }
 @media (max-width: 1024px){
     .plan_section{
-        width: 27%;
+        width: 25%;
     }
 
 }
